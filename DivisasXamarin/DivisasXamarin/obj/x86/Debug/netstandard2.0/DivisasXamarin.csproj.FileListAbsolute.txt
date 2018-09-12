@@ -1,0 +1,12 @@
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\bin\x86\Debug\netstandard2.0\DivisasXamarin.deps.json
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\bin\x86\Debug\netstandard2.0\DivisasXamarin.dll
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\bin\x86\Debug\netstandard2.0\DivisasXamarin.pdb
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\x86\Debug\netstandard2.0\DivisasXamarin.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\x86\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\x86\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\x86\Debug\netstandard2.0\DivisasXamarin.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\x86\Debug\netstandard2.0\DivisasXamarin.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\x86\Debug\netstandard2.0\DivisasXamarin.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\x86\Debug\netstandard2.0\XamlC.stamp
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\x86\Debug\netstandard2.0\DivisasXamarin.dll
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\x86\Debug\netstandard2.0\DivisasXamarin.pdb
