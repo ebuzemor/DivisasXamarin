@@ -2,13 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DivisasXamarin"
-             x:Class="DivisasXamarin.MainPage">
-
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+             x:Class="DivisasXamarin.MainPage"
+             Title="Divisas"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}">
+    <ScrollView>
+        <StackLayout Padding="8">
+            <Label Text="Pesos:"/>
+            <Entry Placeholder="Ingrese valor en pesos..." Keyboard="Numeric" Text="{Binding Pesos, Mode=TwoWay}"/>
+            <Button Text="Convertir" BackgroundColor="Navy" TextColor="White" HeightRequest="40" BorderRadius="20" Command="{Binding ConvertCommand}"/>
+            <Label Text="Dólares: "/>
+            <Entry Placeholder="Valor en dólares..." IsEnabled="False" Text="{Binding Dollars, Mode=TwoWay, StringFormat=C2}"/>
+            <Label Text="Euros: "/>
+            <Entry Placeholder="Valor en euros..." IsEnabled="False" Text="{Binding Euros, Mode=TwoWay, StringFormat=C2}"/>
+            <Label Text="Libras: "/>
+            <Entry Placeholder="Valor en libras..." IsEnabled="False" Text="{Binding Pounds, Mode=TwoWay, StringFormat=C2}"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

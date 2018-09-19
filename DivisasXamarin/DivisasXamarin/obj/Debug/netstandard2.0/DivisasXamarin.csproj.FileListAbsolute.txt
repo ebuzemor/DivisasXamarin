@@ -6,7 +6,7 @@ C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\D
 C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\Debug\netstandard2.0\DivisasXamarin.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\Debug\netstandard2.0\DivisasXamarin.AssemblyInfoInputs.cache
 C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\Debug\netstandard2.0\DivisasXamarin.AssemblyInfo.cs
-C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\Debug\netstandard2.0\DivisasXamarin.dll
 C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\Debug\netstandard2.0\DivisasXamarin.pdb
 C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\Debug\netstandard2.0\DivisasXamarin.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\DivisasXamarin\DivisasXamarin\DivisasXamarin\obj\Debug\netstandard2.0\XamlC.stamp
