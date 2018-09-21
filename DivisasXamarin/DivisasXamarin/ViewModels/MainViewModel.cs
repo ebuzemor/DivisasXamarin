@@ -11,7 +11,18 @@ namespace DivisasXamarin.ViewModels
         private decimal dollars;
         private decimal euros;
         private decimal pounds;
-        public decimal Pesos { get => pesos; set => pesos = value; }
+        public decimal Pesos
+        {
+            get => pesos;
+            set
+            {
+                if (pesos != value)
+                {
+                    pesos = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Pesos"));
+                }
+            }
+        }
         public decimal Dollars
         {
             get => dollars;
