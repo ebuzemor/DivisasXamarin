@@ -8,14 +8,14 @@
     <ScrollView>
         <StackLayout Padding="8">
             <Label Text="Pesos:"/>
-            <Entry Placeholder="Ingrese valor en pesos..." Keyboard="Numeric" Text="{Binding Pesos, Mode=TwoWay}"/>
+            <Entry Placeholder="Ingrese valor en pesos..." Keyboard="Numeric" Text="{Binding Pesos, Mode=TwoWay}" HorizontalTextAlignment="End"/>
             <Button Text="Convertir" BackgroundColor="Navy" TextColor="White" HeightRequest="40" BorderRadius="20" Command="{Binding ConvertCommand}"/>
             <Label Text="Dólares: "/>
-            <Entry Placeholder="Valor en dólares..." IsEnabled="False" Text="{Binding Dollars, Mode=TwoWay, StringFormat=C2}"/>
+            <Entry Placeholder="Valor en dólares..." IsEnabled="False" Text="{Binding Dollars, Mode=TwoWay, StringFormat='${0:N2}'}" HorizontalTextAlignment="End"/>
             <Label Text="Euros: "/>
-            <Entry Placeholder="Valor en euros..." IsEnabled="False" Text="{Binding Euros, Mode=TwoWay, StringFormat=C2}"/>
+            <Entry Placeholder="Valor en euros..." IsEnabled="False" Text="{Binding Euros, Mode=TwoWay, StringFormat='€{0:N2}'}" HorizontalTextAlignment="End"/>
             <Label Text="Libras: "/>
-            <Entry Placeholder="Valor en libras..." IsEnabled="False" Text="{Binding Pounds, Mode=TwoWay, StringFormat=C2}"/>
+            <Entry Placeholder="Valor en libras..." IsEnabled="False" Text="{Binding Pounds, Mode=TwoWay, StringFormat='£{0:N2}'}" HorizontalTextAlignment="End"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>
